@@ -1,0 +1,10 @@
+POST http://localhost:8081/calc
+Content-Type: application/x-www-form-urlencoded
+
+operation=sum&num1=7&num2=10
+
+###
+
+GET http://localhost:8081/history
+
+###
